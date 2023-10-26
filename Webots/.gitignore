@@ -1,0 +1,21 @@
+# Files webots generates
+protos/**/*.cache
+worlds/.*.wbproj
+
+# Generated when converting a NUgus to base nodes
+worlds/NUgus_textures
+worlds/robot
+
+# Build files and binaries
+build/
+
+# Vision data collection
+controllers/vision_teleport_controller/data
+
+# Binaries
+controllers/nugus_controller/nugus_controller
+controllers/vision_teleport_controller/vision_teleport_controller
+controllers/optimisation/optimisation
+
+# Logs
+*.log
